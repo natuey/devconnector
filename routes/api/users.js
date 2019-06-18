@@ -43,16 +43,16 @@ router.post(
       }
 
       // Get users gravatar based on their emails
-      const avatar = gravatar.url(email, {
-        s: '200',
-        r: 'pg',
-        d: 'mm'
-      });
+      // const avatar = gravatar.url(email, {
+      //   s: '200',
+      //   r: 'pg',
+      //   d: 'mm'
+      // });
 
       user = new User({
         name,
         email,
-        avatar,
+        // avatar,
         password
       });
 
