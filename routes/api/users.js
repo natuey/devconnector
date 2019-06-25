@@ -42,7 +42,7 @@ router.post(
           .json({ errors: [{ msg: 'User already exists' }] });
       }
 
-      // Get users gravatar based on their emails
+      // // Get users gravatar based on their emails
       // const avatar = gravatar.url(email, {
       //   s: '200',
       //   r: 'pg',
