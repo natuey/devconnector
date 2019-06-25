@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://natuey:thuy1907@devconnection-gts4y.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "d3e739b47cb17d7fa4a3",
+  "githubSecret": "b1c0e2bc9773aa1eb9945793901f83e3aad5655e"
+}
